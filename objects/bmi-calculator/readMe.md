@@ -1,13 +1,27 @@
-Let's compare Mark's and John's BMIs.
+# BMI Calculator 🧮
 
-Let's use objects to implement the calculations! Remember: BMI = mass / (height \* height) (mass in kg and height in meters).
+This is a simple Body Mass Index (BMI) calculator built using HTML and JavaScript. It compares the BMI of two people—Mark and John—using object-oriented programming.
 
-Your tasks:
+## 📌 What It Does
 
-For each of them, create an object with properties for their full name, mass, and height (Mark Miller and John Smith). Name these objects as mark and john, and their properties exactly as fullName, mass and height.
+- Defines two objects (`mark` and `john`) with `fullName`, `mass`, and `height` properties.
+- Each object has a `calcBMI()` method that calculates and stores the BMI.
+- Compares their BMIs and logs a message indicating who has the higher BMI.
 
-Create a calcBMI method on each object to calculate the BMI (the same method on both objects). Assign the BMI value to a property called bmi (lowercase), and also return it from the method.
+## 📁 Files
 
-Log to the console who has the higher BMI, together with the full name and the respective BMI. Example: "John Smith's BMI (28.3) is higher than Mark Miller's (23.9)!".
+- `index.html` – Basic structure of the web page.
+- `script.js` – All JavaScript logic and BMI comparison.
+- `README.md` – Project description.
 
-TEST DATA: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall.
+## 📚 Concepts Used
+
+- Object creation
+- Methods inside objects
+- `this` keyword
+- Conditional statements
+- DOM Console output
+
+## 💡 Example Output
+
+Mark Miller's BMI (27.3) is higher than John Smith's (24.2)!
